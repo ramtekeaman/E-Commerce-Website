@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Door Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  </head>
+  <style>
+    body {
+      margin: 0rem;
+      padding: 0rem;
+      background: rgb(247, 246, 233);
+    }
+    nav {
+      width: 100%;
+      background-color: black;
+      overflow: auto;
+      position: fixed;
+      transition: top 0.8s;
+      z-index: 1000;
+    }
+    ul {
+      margin: 0rem;
+      padding: 0 0 0 15.0rem;
+      list-style: none;
+    }
+    li {
+      float: left;
+    }
+    .logo img {
+      position: absolute;
+      margin-top: 1.5rem;
+      margin-left: 1.5rem;
+      height: 6.0rem;
+      border-top-left-radius: 12.5rem;
+      width: 5.3rem;
+    }
+    nav a {
+      width: 10.0rem;
+      height: 3.3rem;
+      display: block;
+      text-decoration: none;
+      padding: 2.0rem 1.5rem;
+      font-family: Arial, Helvetica, sans-serif;
+      color: antiquewhite;
+      text-align: center;
+      font-size: 2.0rem;
+      margin-top: .6rem;
+    }
+    .searchbar input {
+      position: absolute;
+      margin: 1.5rem;
+      padding: 1.5rem;
+      border-radius: 3.8rem;
+      width: 33.8rem;
+      height: .8rem;
+      margin-left: 2.0rem;
+      border: .1rem solid black;
+    }
+    .searchbar button {
+      float: right;
+      padding: .6rem .10rem;
+      margin-top: 1.8rem;
+      margin-right: 26.3rem;
+      background: #ddd;
+      font-size: 1.7rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 1.3rem;
+      font-style: Roboto Slab;
+      font-size: 1.2rem;
+      height: 4rem;
+      width: 6rem;
+    }
+    nav .searchbar button:hover {
+      background: #ccc;
+    }
+  </style>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="logo">
+          <img
+            src="images/moondoorlogo.jpg"
+            class="image"
+            alt="moondoor"
+            style="width: 5.3rem"
+          />
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="product1.html">Product</a></li>
+          <li><a href="#">Designs</a></li>
+        </ul>
+        <div class="searchbar">
+          <form>
+            <input
+              type="text"
+              value="Search Designs"
+              placeholder="Search designs.."
+            />
+            <button type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <script>
+      let prevScrollPos = window.pageYOffset;
+
+      window.onscroll = function () {
+        let currentScrollPos = window.pageYOffset;
+
+        if (prevScrollPos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top =
+            "-75rem"; /* Adjust this value based on your navbar height */
+        }
+
+        prevScrollPos = currentScrollPos;
+      };
+    </script>
+
+    <div class="back-image">
+      <div class="back-text">
+        <span class="text"> MOON DOORS </span>
+      </div>
+      <div class="caption">
+        <p>
+          "Unlocking Elegance: Moon Doors – Crafting Exquisite Doors with
+          Timeless Designs for Your Distinct Spaces."
+        </p>
+      </div>
+    </div>
+    <div class="white">
+
+    </div>
+    <div class="flyer">
+      <div class="flyer-text">
+        <span>
+          "Doors are for people with no imagination." - Derek Landy
+        </span>
+      </div>
+
+    </div>
+    <div class="content">
+      <span> PRODUCTS </span>
+    </div>
+    <div class="allproduct">
+      <div class="product-card">
+        <img src="images/door5.jpg" alt="door1" />
+
+        <div class="product-detail">
+          <div class="product-title">Mangowood fancy Door</div>
+          <div class="product-price">17000 Rs</div>
+          <form>
+            <button type="button">Buy now</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/door6.jpg" alt="door1" />
+
+        <div class="product-detail">
+          <div class="product-title">Polo Frontol Door</div>
+          <div class="product-price">17500 Rs</div>
+          <form>
+            <button type="button">Buy now</button>
+          </form>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/door7.jpg" alt="door1" />
+
+        <div class="product-detail">
+          <div class="product-title">Mattalic Door Skin</div>
+          <div class="product-price">4000 Rs</div>
+          <form>
+            <button type="button">Buy now</button>
+          </form>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/door8(1).jpg" alt="door1" />
+
+        <div class="product-detail">
+          <div class="product-title">Sunmyca Ply Door Skin</div>
+          <div class="product-price">8000 Rs</div>
+          <form>
+            <button type="button">Buy now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="allproduct">
+      <div class="product-card">
+        <img src="images/door1.jpg" alt="door1" />
+
+        <div class="product-detail">
+          <div class="product-title">Kitchen Aesthetic Door</div>
+          <div class="product-price">8000 Rs</div>
+          <form>
+            <button type="button">Buy now</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/door2.jpeg" alt="door1" />
+
+        <div class="product-detail">
+          <div class="product-title">Front Carved Door</div>
+          <div class="product-price">7500 Rs</div>
+          <form>
+            <button type="button">Buy now</button>
+          </form>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/door3.jpg" alt="door1" />
+
+        <div class="product-detail">
+          <div class="product-title">Two Carved Door</div>
+          <div class="product-price">10000 Rs</div>
+          <form>
+            <button type="button">Buy now</button>
+          </form>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/door4.jpg" alt="door1" />
+
+        <div class="product-detail">
+          <div class="product-title">Modern Front Door</div>
+          <div class="product-price">18000 Rs</div>
+          <form>
+            <button type="button">Buy now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div id="col">
+          <img src="images/moondoorlogo.jpg" class="logo2" />
+        </div>
+        <div class="col">
+          <h1>MOON DOOR</h1>
+          <p>
+            "Discover unparalleled craftsmanship and security with Moon Door.
+            Elevate your space with our exquisite range of doors, blending
+            timeless design and lasting durability. From stylish entryways to
+            secure interiors, our doors redefine aesthetics and safety. Choose
+            excellence; choose Moon Door for doors that make a statement in
+            every space."
+          </p>
+        </div>
+        <div id="col1">
+          <h1>Address</h1>
+          <p>At silicon valley, sundowm city 21A, New york, USA</p>
+          <p>
+            Global market, Twin tower,Bussiness Street, Nagpur,Maharastra, India
+          </p>
+        </div>
+        <div id="col2">
+          <h1>Contact</h1>
+          <p>+1 9768746743</p>
+          <p>+91 9943943938</p>
+          <p>
+            <a href="mailto:priyanshurangari60@gmail.com" class="emailid"
+              >moondoor@gmail.com</a
+            >
+          </p>
+        </div>
+        <div id="col3">
+          <h1>Connect</h1>
+          <p>
+            <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          </p>
+          <p>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+          </p>
+          <p>
+            <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          </p>
+          <p>
+            <a href="#"><i class="fa-brands fa-telegram"></i> Telegram</a>
+          </p>
+        </div>
+        <div id="col4">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="product1.html">Products</a></li>
+            <li><a href="#">designs</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

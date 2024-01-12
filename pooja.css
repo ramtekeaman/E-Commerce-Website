@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #eee7dd;
+    display: flex;
+    /* gap: 20px; */
+    position: fixed;
+
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    border: 2px solid black;
+
+
+
+
+}
+
+.img-top img {
+    height: 50px;
+    width: 100px;
+    margin-right: 4vh;
+    margin-left: 8vh;
+
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #eee7dd;
+    color: black;
+}
+
+.r-name {
+    background-color: #eee7dd;
+    height: 48vh;
+    width: 100%;
+    background-image: url(/images/pp.jpeg);
+    background-repeat: repeat;
+    background-size: contain;
+
+
+
+}
+
+.r-name h2 {
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 10vh;
+    color: white;
+
+
+}
+
+.r-name p {
+    margin-top: 2vh;
+    color: white;
+    font-size: 3vh;
+    width: 52vw;
+    text-align: center;
+    padding-left: 25vw;
+    font-weight: 400;
+}
+
+
+.Desc {
+    height: 75vh;
+    width: 100%;
+    background-color:#eee7dd;
+
+}
+.Desc h2{
+    padding-top: 5vh;
+    padding-left: 3%;
+    line-height: 1.6;
+    width: 96%;
+
+
+
+}
+.Desc p {
+    width: 96%;
+    line-height: 1.6;
+    padding-left: 3%;
+
+}
+.what h4 {
+    margin-top: 1vh;
+    width: 96%;
+    padding-left: 3%;
+
+}
+.what p {
+    width: 96%;
+    line-height: 1.6;
+    padding-left: 3%;
+   
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.p1 {
+    background-image: url(/images/pooja1.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 46vw;
+    background-size: contain;
+    margin-left: 10vh;
+
+
+}
+
+
+
+.p2 {
+    background-image: url(/images/pooja2.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 50vw;
+    background-size: contain;
+}
+
+.p3 {
+    background-image: url(/images/pooja3.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 54vw;
+    background-size: contain;
+}
+
+.p4 {
+    background-image: url(/images/pooja4.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 59vw;
+    background-size: contain;
+}
+.p5 {
+    background-image: url(/images/pooja1.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 50vw;
+    background-size: contain;
+}
+.p-gallery {
+    height: 55vh;
+    width: 98vw;
+    display: flex;
+    gap: 2vh;
+    padding-top: 45px;
+    text-align: center;
+    color: white;
+    background-color: #eee7dd;
+
+}
+.p-gallery2 {
+    height: 55vh;
+    width: 98vw;
+    display: flex;
+    gap: 2vh;
+    padding-top: 45px;
+    text-align: center;
+    color: white;
+    background-color: #eee7dd;
+
+}
+
+.p-gallery3 {
+    height: 55vh;
+    width: 98vw;
+    display: flex;
+    gap: 2vh;
+    padding-top: 45px;
+    text-align: center;
+    color: white;
+    background-color: #eee7dd;
+
+}
+
+.p-gallery4 {
+    height: 55vh;
+    width: 98vw;
+    display: flex;
+    gap: 2vh;
+    padding-top: 45px;
+    text-align: center;
+    color: white;
+    background-color: #eee7dd;
+
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 21%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+.address p{
+     color: #bbbbbb;
+    margin-bottom: 2vh;
+}
+.cp{
+    text-align: center;
+    color: #bbbbbb;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .topnav {
+        height: auto;
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .abp {
+        height: 20vh;
+        width: auto;
+        background-color: #eee7dd;
+    }
+
+    .info {
+        background-color: #eee7dd;
+        height: 31vh;
+        padding-top: 7vh;
+
+
+    }
+
+    .image {
+        height: 30vh;
+        width: auto;
+    }
+
+
+}
+
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+
+    .topnav {
+        height: auto;
+        width: auto;
+    }
+
+    .abp {
+        height: 20vh;
+        width: 10vw;
+        background-color: #eee7dd;
+    }
+
+    .info {
+        background-color: #eee7dd;
+        height: 31vh;
+        padding-top: 7vh;
+
+
+    }
+
+    .image {
+        height: 30vh;
+        width: auto;
+    }
+}

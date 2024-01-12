@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #eee7dd;
+    display: flex;
+    /* gap: 20px; */
+    position: fixed;
+
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    border: 2px solid black;
+
+
+
+
+}
+
+.img-top img {
+    height: 50px;
+    width: 100px;
+    margin-right: 4vh;
+    margin-left: 8vh;
+
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #eee7dd;
+    color: black;
+}
+
+.hero-section {
+    background-image: url(/images/m3.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: azure;
+
+}
+
+.Hero-section p {
+    color: white;
+    font-size: 4vh;
+    position: sticky;
+    padding-top: 20px;
+}
+
+.Hero-section h1 {
+    color: white;
+    font-size: 12vh;
+    position: relative;
+
+
+
+}
+
+.hero-h1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+}
+
+.hero-btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.hero-btn button {
+    padding: 10px 50px 10px 50px;
+    font-size: 30px;
+    margin-top: 40px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+.hero-btn button:hover {
+    color: black;
+    background: plum;
+}
+
+.hero-btn a:hover {
+    color: black;
+}
+
+.speci-disccription {
+
+    padding-left: 12vh;
+    align-items: first baseline;
+    justify-content: center;
+}
+
+.speci-disccription h3 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+
+}
+
+.speci-disccription p {
+    color: white;
+
+}
+
+.specification {
+    display: flex;
+    background-color: rgb(33, 33, 60);
+    gap: 119px;
+    align-items: center;
+    text-align: center;
+    height: 32vh;
+
+
+}
+
+.item1 {
+    background-image: url(/images/b4.jpg);
+    background-repeat: no-repeat;
+    height: 277px;
+    width: 100vw;
+    margin-left: 1vh;
+    background-size: cover;
+    border: 7px solid white;
+
+
+}
+
+
+.item2 {
+    background-image: url(/images/b3.jpg);
+    background-repeat: no-repeat;
+    height: 277px;
+    width: 100vw;
+    background-size: cover;
+    border: 7px solid white;
+
+}
+
+.item3 {
+    background-image: url(/images/b2.jpg);
+    background-repeat: no-repeat;
+    height: 277px;
+    width: 100vw;
+    background-size: cover;
+    border: 7px solid white;
+
+}
+
+.item4 {
+    background-image: url(/images/b1.jpg);
+    background-repeat: no-repeat;
+    height: 277px;
+    width: 100vw;
+    margin-right: 2vh;
+    background-size: cover;
+    border: 7px solid white;
+
+}
+
+.door-items {
+    height: 55vh;
+    width: auto;
+    background-position: center;
+    display: flex;
+    gap: 3vh;
+    padding-top: 45px;
+    text-align: center;
+    color: white;
+    background-color: #eee7dd;
+
+
+
+
+}
+
+.door-items h2 {
+    width: 15vw;
+    margin-top: 8vh;
+    text-align: left;
+    margin-left: 3vh;
+    font-size: 25px;
+
+}
+
+.button1 a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.button1 button {
+    padding: 5px 20px 9px 8px;
+    font-size: 14px;
+    margin-top: 22px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-right: 10vh;
+}
+
+.button1 button:hover {
+    color: black;
+    background: #0065AD;
+}
+
+.button1 a:hover {
+    color: black;
+}
+
+/* button 2 */
+
+.button2 a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.button2 button {
+    padding: 5px 20px 9px 8px;
+    font-size: 14px;
+    margin-top: 22px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-right: 15vh;
+}
+
+.button2 button:hover {
+    color: black;
+    background: #0065AD;
+}
+
+.button2 a:hover {
+    color: black;
+}
+
+/* button 3 */
+
+.button3 a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.button3 button {
+    padding: 5px 20px 9px 8px;
+    font-size: 14px;
+    margin-top: 22px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-right: 15vh;
+}
+
+.button3 button:hover {
+    color: black;
+    background: #0065AD;
+}
+
+.button3 a:hover {
+    color: black;
+}
+
+/* button 4 */
+
+
+.button4 a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.button4 button {
+    padding: 5px 20px 9px 8px;
+    font-size: 14px;
+    margin-top: 22px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-right: 15vh;
+}
+
+.button4 button:hover {
+    color: black;
+    background: #0065AD;
+}
+
+.button4 a:hover {
+    color: black;
+}
+
+.pooja {
+
+    background-color: rgb(33, 33, 60);
+    color: white;
+    height: 22vh;
+    width: 98vw;
+    font-size: 05vh;
+    padding-top: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pooja h1 {
+    text-shadow: white;
+    text-align: center;
+
+
+}
+
+.pooja p {
+    font-size: 3vh;
+    text-align: center;
+
+
+}
+
+.p1 {
+    background-image: url(/images/pooja1.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 46vw;
+    background-size: contain;
+    margin-left: 10vh;
+
+
+}
+
+
+
+.p2 {
+    background-image: url(/images/pooja2.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 50vw;
+    background-size: contain;
+}
+
+.p3 {
+    background-image: url(/images/pooja3.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 54vw;
+    background-size: contain;
+}
+
+.p4 {
+    background-image: url(/images/pooja4.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 59vw;
+    background-size: contain;
+}
+.p5 {
+    background-image: url(/images/pooja1.jpg);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 50vw;
+    background-size: contain;
+}
+.pooja-room {
+    height: 55vh;
+    width: 98vw;
+    display: flex;
+    gap: 2vh;
+    padding-top: 45px;
+    text-align: center;
+    color: white;
+    background-color: #eee7dd;
+
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 21%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+.address p{
+     color: #bbbbbb;
+    margin-bottom: 2vh;
+}
+.cp{
+    text-align: center;
+    color: #bbbbbb;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .topnav {
+        height: auto;
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .abp {
+        height: 20vh;
+        width: auto;
+        background-color: #eee7dd;
+    }
+
+    .info {
+        background-color: #eee7dd;
+        height: 31vh;
+        padding-top: 7vh;
+
+
+    }
+
+    .image {
+        height: 30vh;
+        width: auto;
+    }
+
+
+}
+
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+
+    .topnav {
+        height: auto;
+        width: auto;
+    }
+
+    .abp {
+        height: 20vh;
+        width: 10vw;
+        background-color: #eee7dd;
+    }
+
+    .info {
+        background-color: #eee7dd;
+        height: 31vh;
+        padding-top: 7vh;
+
+
+    }
+
+    .image {
+        height: 30vh;
+        width: auto;
+    }
+}
